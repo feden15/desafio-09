@@ -1,5 +1,5 @@
 # Nombre: Federico Nova
 
-# Link a GitHub:
+# Link a GitHub: https://github.com/feden15/desafio-09
 
-# Link a Netlify:
+# Link de Netlify: https://desafio-09.netlify.app/
