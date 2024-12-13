@@ -20,8 +20,8 @@ for (let i=1; i<=cantidadDeGatos; i++) {
 console.warn('PARTE 2');
 
 for (let i=1; i<=cantidadDeGatos; i++) {
-  console.log('GATO #' + i + ': 🐈‍⬛');
-  for (let i=1; i<=cantidadDePasos; i++) {
-    console.log('🐾');
-  }
+  console.log('GATO #' + i + '😺' + '🐾'.repeat(cantidadDePasos));
 }
+
+//! ----------------------------------- PARTE 3 ---------------------------------------
+console.warn('PARTE 3');
