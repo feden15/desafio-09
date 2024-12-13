@@ -1,14 +1,27 @@
 import './style.css'
 
- let cantidadDeGatos = Number(prompt('Indique la cantidad de gatos'))
-/* let cantidadDePasos = Number(prompt('Indique la cantidad de pasos')) */
+let cantidadDeGatos = Number(prompt('Indique la cantidad de gatos'))
+let cantidadDePasos = Number(prompt('Indique la cantidad de pasos'))
+
+//! ----------------------------------- PARTE 1 ---------------------------------------
+console.warn('PARTE 1');
 
 for (let i=1; i<=cantidadDeGatos; i++) {
   if (i % 3 == 0) {
-    console.log('GATO #' + i + ': TERCERO');
+    console.log('GATO #' + i + ': 😹');
   } else if (i % 3 == 2) {
-    console.log('GATO #' + i + ': SEGUNDO/PAR');
+    console.log('GATO #' + i + ': 😸');
   } else {
-    console.log('GATO #' + i + ': PRIMERO');
+    console.log('GATO #' + i + ': 😺');
+  }
+}
+
+//! ----------------------------------- PARTE 2 ---------------------------------------
+console.warn('PARTE 2');
+
+for (let i=1; i<=cantidadDeGatos; i++) {
+  console.log('GATO #' + i + ': 🐈‍⬛');
+  for (let i=1; i<=cantidadDePasos; i++) {
+    console.log('🐾');
   }
 }
