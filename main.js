@@ -20,8 +20,19 @@ for (let i=1; i<=cantidadDeGatos; i++) {
 console.warn('PARTE 2');
 
 for (let i=1; i<=cantidadDeGatos; i++) {
-  console.log('GATO #' + i + '😺' + '🐾'.repeat(cantidadDePasos));
+  console.log('GATO #' + i + '🐈‍⬛' + '🐾'.repeat(cantidadDePasos));
 }
 
 //! ----------------------------------- PARTE 3 ---------------------------------------
 console.warn('PARTE 3');
+
+for (let i=1; i<=cantidadDeGatos; i++) {
+  if (i % 2 == 0) {
+    console.log('GATO #' + i + '🐈‍⬛🐈‍' + '🐾'.repeat(cantidadDePasos))
+  } else {
+    console.log('GATO #' + i + '🐈‍⬛' + '🐾'.repeat(cantidadDePasos))
+  }
+}
+
+//! ----------------------------------- PARTE 4 ---------------------------------------
+console.warn('PARTE 4');
